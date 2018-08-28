@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name"   : "toring-rest-api",
+    "script" : "npm",
+    "args": ["run", "prod"],
+    "env_production": {
+      "NODE_ENV": "production"
+    }
+  }]
+}
